@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("fondo.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* Selectores de clases */
+.box {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.box h1, .box h2, .box h3 {
+    text-align: center;
+}
+
+.box h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.box h2 {
+    color: #8e44ad;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.box h3 {
+    color: #16a085;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+
+.box p {
+    color: #34495e;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Selectores de ID */
+#parrafo-especial {
+    color: #e74c3c;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#parrafo-especial a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+#parrafo-especial a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para las imágenes */
+img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+}
+
+.imagen-pequena {
+    max-width: 400px;
+    height: auto;
+}
+
+.imagen-grande {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Otros estilos */
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 40px 0;
+}
